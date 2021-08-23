@@ -1,6 +1,6 @@
 {
   "name": "@metocherry/eslint-config-joy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "for clean code",
   "keywords": [
     "javascript",
@@ -8,6 +8,10 @@
     "eslint"
   ],
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint rules/ airbnb-base/",
+    "lint:fix": "eslint rules/ airbnb-base/ --fix"
+  },
   "repository": "git@github.com:metocherry/eslint-config-joy.git",
   "author": "jinseok <metocherry@gmail.com>",
   "license": "MIT",
