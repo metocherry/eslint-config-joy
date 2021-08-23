@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-joy",
+  "name": "@metocherry/eslint-config-joy",
   "version": "0.0.1",
   "description": "for clean code",
   "keywords": [
