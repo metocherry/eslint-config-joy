@@ -1,6 +1,6 @@
 {
   "name": "@metocherry/eslint-config-joy",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "for clean code",
   "keywords": [
     "javascript",
@@ -19,16 +19,22 @@
     "node": ">= 14"
   },
   "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
     "eslint": "^7.32.0",
     "eslint-import-resolver-node": "^0.3.6",
-    "eslint-plugin-import": "^2.24.1"
-  },
-  "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-import-resolver-node": "^0.3.6",
-    "eslint-plugin-import": "^2.24.1"
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-react": "^7.25.1"
   },
   "dependencies": {
     "confusing-browser-globals": "^1.0.10"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "eslint": "^7.32.0",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-react": "^7.25.1"
   }
 }
