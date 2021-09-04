@@ -5,6 +5,7 @@
 ```bash
 yarn add --dev \
   eslint \
+  typescript \
   eslint-import-resolver-node \
   eslint-plugin-import \
   eslint-plugin-react \
