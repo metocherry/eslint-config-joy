@@ -14,7 +14,7 @@ module.exports = {
 
     // specify the maximum cyclomatic complexity allowed in a program
     // https://eslint.org/docs/rules/complexity
-    complexity: ['off', 20],
+    'complexity': ['off', 20],
 
     // enforce that class methods use "this"
     // https://eslint.org/docs/rules/class-methods-use-this
@@ -28,7 +28,7 @@ module.exports = {
 
     // specify curly brace conventions for all control statements
     // https://eslint.org/docs/rules/curly
-    curly: ['error', 'multi-line'], // multiline
+    'curly': ['error', 'multi-line'], // multiline
 
     // require default case in switch statements
     // https://eslint.org/docs/rules/default-case
@@ -53,7 +53,7 @@ module.exports = {
 
     // require the use of === and !==
     // https://eslint.org/docs/rules/eqeqeq
-    eqeqeq: ['error', 'always', { null: 'ignore' }],
+    'eqeqeq': ['error', 'always', { null: 'ignore' }],
 
     // Require grouped accessor pairs in object literals and classes
     // https://eslint.org/docs/rules/grouped-accessor-pairs
@@ -387,7 +387,7 @@ module.exports = {
 
     // require use of the second argument for parseInt()
     // https://eslint.org/docs/rules/radix
-    radix: 'error',
+    'radix': 'error',
 
     // require `await` in `async function` (note: this is a horrible rule that should never be used)
     // https://eslint.org/docs/rules/require-await
@@ -407,6 +407,6 @@ module.exports = {
 
     // require or disallow Yoda conditions
     // https://eslint.org/docs/rules/yoda
-    yoda: 'error',
+    'yoda': 'error',
   },
 }

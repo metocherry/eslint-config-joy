@@ -15,7 +15,7 @@ module.exports = {
 
     // Replace Airbnb 'camelcase' rule with '@typescript-eslint/naming-convention'
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md
-    "camelcase": 'off',
+    'camelcase': 'off',
     // The `@typescript-eslint/naming-convention` rule allows `leadingUnderscore` and `trailingUnderscore` settings. However, the existing `no-underscore-dangle` rule already takes care of this.
     '@typescript-eslint/naming-convention': [
       'error',
@@ -67,7 +67,7 @@ module.exports = {
 
     // Replace Airbnb 'indent' rule with '@typescript-eslint' version
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/indent.md
-    "indent": 'off',
+    'indent': 'off',
     '@typescript-eslint/indent': style.indent,
 
     // Replace Airbnb 'keyword-spacing' rule with '@typescript-eslint' version
@@ -158,12 +158,12 @@ module.exports = {
 
     // Replace Airbnb 'quotes' rule with '@typescript-eslint' version
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/quotes.md
-    "quotes": 'off',
+    'quotes': 'off',
     '@typescript-eslint/quotes': style.quotes,
 
     // Replace Airbnb 'semi' rule with '@typescript-eslint' version
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/semi.md
-    "semi": 'off',
+    'semi': 'off',
     '@typescript-eslint/semi': style.semi,
 
     // Replace Airbnb 'space-before-function-paren' rule with '@typescript-eslint' version

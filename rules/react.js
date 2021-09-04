@@ -17,9 +17,6 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
     'react/jsx-key': 'off',
 
-    // Only allo 'is~', 'has~' for boolean props
-    'react/boolean-prop-naming': 'off',
-
     // Enforce boolean attributes notation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
     'react/jsx-boolean-value': ['error', 'never', { always: [] }],
@@ -77,10 +74,6 @@ module.exports = {
       checkChildContextTypes: true,
     }],
 
-    // Prevent usage of unwrapped JSX strings
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-literals.md
-    'react/jsx-no-literals': ['off', { noStrings: true }],
-
     // Disallow undeclared variables in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
     'react/jsx-no-undef': 'error',
@@ -92,7 +85,7 @@ module.exports = {
       ignore: [],
     }],
 
-     // Enforce propTypes declarations alphabetical sorting
+    // Enforce propTypes declarations alphabetical sorting
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-prop-types.md
     'react/sort-prop-types': ['off', {
       ignoreCase: true,
@@ -184,7 +177,7 @@ module.exports = {
     'react/prop-types': ['error', {
       ignore: [],
       customValidators: [],
-      skipUndeclared: false
+      skipUndeclared: false,
     }],
 
     // Prevent missing React when using JSX
@@ -242,11 +235,11 @@ module.exports = {
           'getSnapshotBeforeUpdate',
           'componentDidUpdate',
           'componentDidCatch',
-          'componentWillUnmount'
+          'componentWillUnmount',
         ],
         rendering: [
           '/^render.+$/',
-          'render'
+          'render',
         ],
       },
     }],
@@ -305,7 +298,7 @@ module.exports = {
 
     // Forbid certain elements
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-elements.md
-    'react/forbid-elements': ['off', { forbid: [], }],
+    'react/forbid-elements': ['off', { forbid: [] }],
 
     // Prevent problem with children and props.dangerouslySetInnerHTML
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger-with-children.md
@@ -530,15 +523,15 @@ module.exports = {
         'componentDidUpdate',
         'componentWillUnmount',
         'componentDidCatch',
-        'getSnapshotBeforeUpdate'
+        'getSnapshotBeforeUpdate',
       ],
     }],
   },
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.jsx', '.json']
-      }
+        extensions: ['.js', '.jsx', '.json'],
+      },
     },
     'react': {
       pragma: 'React',
