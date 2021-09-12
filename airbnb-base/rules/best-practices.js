@@ -47,10 +47,6 @@ module.exports = {
     // https://eslint.org/docs/rules/dot-notation
     'dot-notation': ['error', { allowKeywords: true }],
 
-    // enforces consistent newlines before or after dots
-    // https://eslint.org/docs/rules/dot-location
-    'dot-location': ['error', 'property'],
-
     // require the use of === and !==
     // https://eslint.org/docs/rules/eqeqeq
     'eqeqeq': ['error', 'always', { null: 'ignore' }],
